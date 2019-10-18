@@ -16,11 +16,12 @@ class dashboard extends Component{
         return(
             <div>
                 <div className = "Dashboard">
-                    <p id="dash">Dashboard</p>
+                   <div className = "d"> <p id="dash">Dashboard</p>
                     <Link to='/Wizard1'>
                         <button className="property">
                             <b>Add New Property</b>
                             </button></Link>
+                            </div>
                             </div>
                  <House/>
                  <section> house 1
